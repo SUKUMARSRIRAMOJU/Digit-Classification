@@ -2,6 +2,7 @@ import joblib
 import random
 import streamlit as st
 import numpy as np
+from skimage.io import imread
 from skimage.transform import resize
 from PIL import Image
 from sklearn.datasets import load_digits
