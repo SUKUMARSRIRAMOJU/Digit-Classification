@@ -7,7 +7,7 @@ from PIL import Image
 st.title('Digit Classfier using Machine Learning')
 st.text('Upload the image of a digit to classify')
 model = joblib.load('Digit Classifier')
-uploaded_file = st.file_uploader("Choose an Image....",type = 'jpg')
+uploaded_file = st.file_uploader("Choose an Image....",type = 'jepg')
 
 if uploaded_file is not None:
   img = Image.open(uploaded_file)
