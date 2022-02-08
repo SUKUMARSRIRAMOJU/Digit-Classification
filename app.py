@@ -15,7 +15,7 @@ def set_bg_hack(main_bg):
         The background.
         '''
         # set bg name
-        main_bg_ext = "png"
+        main_bg_ext = "jpg"
             
         st.markdown(
             f"""
@@ -28,7 +28,7 @@ def set_bg_hack(main_bg):
             """,
             unsafe_allow_html=True
         )
-set_bg_hack('background.png')
+set_bg_hack('background.jpg')
 
 st.title('Digit Classfier using Machine Learning')
 st.text('Upload the image of a digit to classify')
