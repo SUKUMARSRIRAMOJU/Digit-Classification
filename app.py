@@ -28,7 +28,7 @@ def set_bg_hack(main_bg):
             """,
             unsafe_allow_html=True
         )
-set_bg_hack('background.jpg')
+set_bg_hack('bg.jpg')
 
 st.title('Digit Classfier using Machine Learning')
 st.text('Upload the image of a digit to classify')
